@@ -1,0 +1,16 @@
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\bin\Debug\netcoreapp2.1\Entity.Models.dll
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\bin\Debug\netcoreapp2.1\Persistency.Implementations.dll
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\bin\Debug\netcoreapp2.1\Persistency.Implementations.pdb
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\bin\Debug\netcoreapp2.1\Entity.Models.pdb
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CopyComplete
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+C:\Multistrat\TripPlanner\TripPlanner\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb

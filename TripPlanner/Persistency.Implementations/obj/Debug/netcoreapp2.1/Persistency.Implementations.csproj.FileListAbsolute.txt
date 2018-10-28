@@ -1,0 +1,12 @@
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Persistency.Implementations.deps.json
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Persistency.Implementations.dll
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\obj\Debug\netcoreapp2.1\Persistency.Implementations.csproj.CoreCompileInputs.cache
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\obj\Debug\netcoreapp2.1\Persistency.Implementations.AssemblyInfoInputs.cache
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\obj\Debug\netcoreapp2.1\Persistency.Implementations.AssemblyInfo.cs
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Persistency.Implementations.pdb
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Entity.Models.dll
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Entity.Models.pdb
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\obj\Debug\netcoreapp2.1\Persistency.Implementations.csprojAssemblyReference.cache
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\obj\Debug\netcoreapp2.1\Persistency.Implementations.csproj.CopyComplete
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\obj\Debug\netcoreapp2.1\Persistency.Implementations.dll
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\obj\Debug\netcoreapp2.1\Persistency.Implementations.pdb

@@ -1,0 +1,9 @@
+C:\Multistrat\TripPlanner\TripPlanner\Entity.Models\bin\Debug\netcoreapp2.1\Entity.Models.deps.json
+C:\Multistrat\TripPlanner\TripPlanner\Entity.Models\bin\Debug\netcoreapp2.1\Entity.Models.dll
+C:\Multistrat\TripPlanner\TripPlanner\Entity.Models\bin\Debug\netcoreapp2.1\Entity.Models.pdb
+C:\Multistrat\TripPlanner\TripPlanner\Entity.Models\obj\Debug\netcoreapp2.1\Entity.Models.csproj.CoreCompileInputs.cache
+C:\Multistrat\TripPlanner\TripPlanner\Entity.Models\obj\Debug\netcoreapp2.1\Entity.Models.AssemblyInfoInputs.cache
+C:\Multistrat\TripPlanner\TripPlanner\Entity.Models\obj\Debug\netcoreapp2.1\Entity.Models.AssemblyInfo.cs
+C:\Multistrat\TripPlanner\TripPlanner\Entity.Models\obj\Debug\netcoreapp2.1\Entity.Models.dll
+C:\Multistrat\TripPlanner\TripPlanner\Entity.Models\obj\Debug\netcoreapp2.1\Entity.Models.pdb
+C:\Multistrat\TripPlanner\TripPlanner\Entity.Models\obj\Debug\netcoreapp2.1\Entity.Models.csprojAssemblyReference.cache
