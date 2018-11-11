@@ -7,7 +7,7 @@ namespace Persistency.Mappings.EntityMappings
     public class EmployeeMappings : IEntityMapping
     {
         public void Map(ModelBuilder modelBuilder)
-        {
+        {   
             modelBuilder.Entity<Employee>().HasKey(e => e.Id);
 
             modelBuilder.Entity<Employee>()

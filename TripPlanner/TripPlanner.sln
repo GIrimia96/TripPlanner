@@ -20,6 +20,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistency.Contracts", "Persistency.Contracts\Persistency.Contracts.csproj", "{DA8F444D-2767-46CD-AD4A-F8B8BC187BDC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripPlanner.Api", "TripPlanner.Api\TripPlanner.Api.csproj", "{C7D988DE-28B1-4C32-B15F-2A11A4167C7D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC14DD4D-AE06-4D3D-89DC-BAA475DE9324} = {BC14DD4D-AE06-4D3D-89DC-BAA475DE9324}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripPlanner.Web", "TripPlanner.Web\TripPlanner.Web.csproj", "{B33B958B-2D91-41B2-A408-3BE78CE1C5A6}"
 EndProject

@@ -1,0 +1,9 @@
+C:\Multistrat\TripPlanner\TripPlanner\Cqrs.Service\bin\Debug\netcoreapp2.1\Cqrs.Service.deps.json
+C:\Multistrat\TripPlanner\TripPlanner\Cqrs.Service\bin\Debug\netcoreapp2.1\Cqrs.Service.dll
+C:\Multistrat\TripPlanner\TripPlanner\Cqrs.Service\bin\Debug\netcoreapp2.1\Cqrs.Service.pdb
+C:\Multistrat\TripPlanner\TripPlanner\Cqrs.Service\obj\Debug\netcoreapp2.1\Cqrs.Service.csprojAssemblyReference.cache
+C:\Multistrat\TripPlanner\TripPlanner\Cqrs.Service\obj\Debug\netcoreapp2.1\Cqrs.Service.csproj.CoreCompileInputs.cache
+C:\Multistrat\TripPlanner\TripPlanner\Cqrs.Service\obj\Debug\netcoreapp2.1\Cqrs.Service.AssemblyInfoInputs.cache
+C:\Multistrat\TripPlanner\TripPlanner\Cqrs.Service\obj\Debug\netcoreapp2.1\Cqrs.Service.AssemblyInfo.cs
+C:\Multistrat\TripPlanner\TripPlanner\Cqrs.Service\obj\Debug\netcoreapp2.1\Cqrs.Service.dll
+C:\Multistrat\TripPlanner\TripPlanner\Cqrs.Service\obj\Debug\netcoreapp2.1\Cqrs.Service.pdb
