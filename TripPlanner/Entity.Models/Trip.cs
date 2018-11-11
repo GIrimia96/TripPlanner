@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Entity.Models
 {
@@ -23,5 +24,9 @@ namespace Entity.Models
         public string Type { get; set; }
 
         public int Status { get; set; }
+
+        public List<EmployeeTrip> EmployeeTrips { get; set; }
+
+        public Location Location { get; set; }
     }
 }

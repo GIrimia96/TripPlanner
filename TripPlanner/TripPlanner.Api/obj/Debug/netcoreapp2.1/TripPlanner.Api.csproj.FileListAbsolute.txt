@@ -1,0 +1,14 @@
+C:\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\TripPlanner.Api.deps.json
+C:\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\TripPlanner.Api.runtimeconfig.json
+C:\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\TripPlanner.Api.runtimeconfig.dev.json
+C:\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\TripPlanner.Api.dll
+C:\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\TripPlanner.Api.pdb
+C:\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\obj\Debug\netcoreapp2.1\TripPlanner.Api.csprojAssemblyReference.cache
+C:\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\obj\Debug\netcoreapp2.1\TripPlanner.Api.csproj.CoreCompileInputs.cache
+C:\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\obj\Debug\netcoreapp2.1\TripPlanner.Api.RazorAssemblyInfo.cache
+C:\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\obj\Debug\netcoreapp2.1\TripPlanner.Api.RazorAssemblyInfo.cs
+C:\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\obj\Debug\netcoreapp2.1\TripPlanner.Api.AssemblyInfoInputs.cache
+C:\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\obj\Debug\netcoreapp2.1\TripPlanner.Api.AssemblyInfo.cs
+C:\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\obj\Debug\netcoreapp2.1\TripPlanner.Api.RazorTargetAssemblyInfo.cache
+C:\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\obj\Debug\netcoreapp2.1\TripPlanner.Api.dll
+C:\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\obj\Debug\netcoreapp2.1\TripPlanner.Api.pdb

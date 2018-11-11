@@ -1,0 +1,8 @@
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Contracts\bin\Debug\netcoreapp2.1\Persistency.Contracts.deps.json
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Contracts\bin\Debug\netcoreapp2.1\Persistency.Contracts.dll
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Contracts\obj\Debug\netcoreapp2.1\Persistency.Contracts.csproj.CoreCompileInputs.cache
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Contracts\obj\Debug\netcoreapp2.1\Persistency.Contracts.AssemblyInfoInputs.cache
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Contracts\obj\Debug\netcoreapp2.1\Persistency.Contracts.AssemblyInfo.cs
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Contracts\bin\Debug\netcoreapp2.1\Persistency.Contracts.pdb
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Contracts\obj\Debug\netcoreapp2.1\Persistency.Contracts.dll
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Contracts\obj\Debug\netcoreapp2.1\Persistency.Contracts.pdb
