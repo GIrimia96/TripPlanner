@@ -2,6 +2,7 @@
 
 namespace Entity.Models
 {
+    //clasa pentru a putea avea @ManyToMany intre Emp si Trips
     public class EmployeeTrip
     {
         public Guid EmployeeId { get; set; }

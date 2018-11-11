@@ -14,6 +14,7 @@ namespace Persistency.Mappings.EntityMappings
                 .HasOne(l => l.Location)
                 .WithMany(t => t.Trips)
                 .HasForeignKey(t => t.Id);
+
         }
     }
 }
