@@ -3,7 +3,7 @@
 namespace Entity.Models
 {
     //clasa pentru a putea avea @ManyToMany intre Emp si Trips
-    public class EmployeeTrip
+    public class EmployeeTrip : BaseEntity
     {
         public Guid EmployeeId { get; set; }
         public Guid TripId { get; set; }

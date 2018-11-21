@@ -24,5 +24,13 @@ namespace Persistency.Implementations
                 optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=TripPlannerDB;Trusted_Connection=True;");
             }
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Employee>()
+                .HasOne(p => p.Account)
+                .WithOne(i => i.Employee)
+                .HasForeignKey<Account>(b => b.AccountForeignKey);
+        }
     }
 }

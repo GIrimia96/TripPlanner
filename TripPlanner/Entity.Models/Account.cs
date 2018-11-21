@@ -1,4 +1,6 @@
-﻿namespace Entity.Models
+﻿using System;
+
+namespace Entity.Models
 {
     public class Account : BaseEntity
     {
@@ -7,5 +9,6 @@
         public string Password { get; set; }
 
         public Employee Employee { get; set; }
+        public Guid AccountForeignKey { get; set; }
     }
 }

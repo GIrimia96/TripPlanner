@@ -12,7 +12,8 @@ namespace Persistency.Mappings.EntityMappings
 
             modelBuilder.Entity<Employee>()
                 .HasOne(a => a.Account)
-                .WithOne();
+                .WithOne(e => e.Employee)
+                .HasForeignKey<Account>(a => a.AccountForeignKey);
         }
     }
 }
