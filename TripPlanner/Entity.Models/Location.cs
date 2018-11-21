@@ -4,10 +4,8 @@ using System.Text;
 
 namespace Entity.Models
 {
-    public class Location
-    {
-        public Guid Id { get; set; }
-        
+    public class Location : BaseEntity
+    {       
         public string Name { get; set; }
 
         public string Country { get; set; }

@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\irimi\\.nuget\\packages\\": {},
+    "C:\\Users\\Radu\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Multistrat\\TripPlanner\\TripPlanner\\Entity.Models\\Entity.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Entity.Models\\Entity.Models.csproj",
       "projectName": "Entity.Models",
-      "projectPath": "C:\\Multistrat\\TripPlanner\\TripPlanner\\Entity.Models\\Entity.Models.csproj",
-      "packagesPath": "C:\\Users\\irimi\\.nuget\\packages\\",
-      "outputPath": "C:\\Multistrat\\TripPlanner\\TripPlanner\\Entity.Models\\obj\\",
+      "projectPath": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Entity.Models\\Entity.Models.csproj",
+      "packagesPath": "C:\\Users\\Radu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Entity.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\irimi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

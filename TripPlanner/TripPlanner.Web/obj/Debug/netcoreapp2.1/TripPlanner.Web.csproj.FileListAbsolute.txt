@@ -1,0 +1,14 @@
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Web\bin\Debug\netcoreapp2.1\TripPlanner.Web.deps.json
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Web\bin\Debug\netcoreapp2.1\TripPlanner.Web.runtimeconfig.json
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Web\bin\Debug\netcoreapp2.1\TripPlanner.Web.runtimeconfig.dev.json
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Web\bin\Debug\netcoreapp2.1\TripPlanner.Web.dll
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Web\bin\Debug\netcoreapp2.1\TripPlanner.Web.pdb
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Web\obj\Debug\netcoreapp2.1\TripPlanner.Web.csprojAssemblyReference.cache
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Web\obj\Debug\netcoreapp2.1\TripPlanner.Web.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Web\obj\Debug\netcoreapp2.1\TripPlanner.Web.RazorAssemblyInfo.cache
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Web\obj\Debug\netcoreapp2.1\TripPlanner.Web.RazorAssemblyInfo.cs
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Web\obj\Debug\netcoreapp2.1\TripPlanner.Web.AssemblyInfoInputs.cache
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Web\obj\Debug\netcoreapp2.1\TripPlanner.Web.AssemblyInfo.cs
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Web\obj\Debug\netcoreapp2.1\TripPlanner.Web.RazorTargetAssemblyInfo.cache
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Web\obj\Debug\netcoreapp2.1\TripPlanner.Web.dll
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Web\obj\Debug\netcoreapp2.1\TripPlanner.Web.pdb

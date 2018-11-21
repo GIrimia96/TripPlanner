@@ -2,6 +2,41 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "AutoMapper/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
+      "Ensure.That/8.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Ensure.That.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ensure.That.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4619,16 +4654,103 @@
       "Cqrs.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "AutoMapper": "8.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.0.0",
+          "DomainModels": "1.0.0",
+          "Ensure.That": "8.1.0",
+          "Repositories.Contracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Cqrs.Service.dll": {}
         },
         "runtime": {
           "bin/placeholder/Cqrs.Service.dll": {}
         }
+      },
+      "DomainModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http": "2.1.1"
+        },
+        "compile": {
+          "bin/placeholder/DomainModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DomainModels.dll": {}
+        }
+      },
+      "Entity.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Entity.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entity.Models.dll": {}
+        }
+      },
+      "Repositories.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Entity.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repositories.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repositories.Contracts.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "AutoMapper/8.0.0": {
+      "sha512": "kcbje0Y71XkvzPn8k6OROZGOn2SKaWimon3Bu1WUTVoV5GTJVym+k+zQuKApyyFVRfk7bisumj/qUX4xIIXS+Q==",
+      "type": "package",
+      "path": "automapper/8.0.0",
+      "files": [
+        ".signature.p7s",
+        "automapper.8.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net461/AutoMapper.dll",
+        "lib/net461/AutoMapper.pdb",
+        "lib/net461/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.pdb",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/6.0.0": {
+      "sha512": "EHxmLh6OuTuiGU3U+pHhNHwWOq1juK+Wbvr2n7Oj8/L819+DCnr7dtVtIGmBYHrle6foukEXqT5rcbRS9+CFyA==",
+      "type": "package",
+      "path": "automapper.extensions.microsoft.dependencyinjection/6.0.0",
+      "files": [
+        ".signature.p7s",
+        "automapper.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.nuspec",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
+      ]
+    },
+    "Ensure.That/8.1.0": {
+      "sha512": "Ke3Pbg2W7VxcjqLTtA4BQTU0gOQLCqtI/tAL3PEKQ7yDy1yx9MgN1v9/Siw3g/lYtb4EGvcd3ckgL9nvdy78Dg==",
+      "type": "package",
+      "path": "ensure.that/8.1.0",
+      "files": [
+        ".signature.p7s",
+        "ensure.that.8.1.0.nupkg.sha512",
+        "ensure.that.nuspec",
+        "lib/net451/Ensure.That.dll",
+        "lib/net451/Ensure.That.xml",
+        "lib/netstandard1.1/Ensure.That.dll",
+        "lib/netstandard1.1/Ensure.That.xml",
+        "lib/netstandard2.0/Ensure.That.dll",
+        "lib/netstandard2.0/Ensure.That.xml"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "rMDlyePoxggkmN/qgha1+BR2Uy+dOr38xKCQOPfVNKGY07R2nYJGMTKJFE1XFgwD70RYUNazf2fqutjJF18XgQ==",
       "type": "package",
@@ -12223,6 +12345,21 @@
       "type": "project",
       "path": "../Cqrs.Service/Cqrs.Service.csproj",
       "msbuildProject": "../Cqrs.Service/Cqrs.Service.csproj"
+    },
+    "DomainModels/1.0.0": {
+      "type": "project",
+      "path": "../DomainModels/DomainModels.csproj",
+      "msbuildProject": "../DomainModels/DomainModels.csproj"
+    },
+    "Entity.Models/1.0.0": {
+      "type": "project",
+      "path": "../Entity.Models/Entity.Models.csproj",
+      "msbuildProject": "../Entity.Models/Entity.Models.csproj"
+    },
+    "Repositories.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Repositories.Contracts/Repositories.Contracts.csproj",
+      "msbuildProject": "../Repositories.Contracts/Repositories.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12236,23 +12373,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\irimi\\.nuget\\packages\\": {},
+    "C:\\Users\\Radu\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Multistrat\\TripPlanner\\TripPlanner\\TripPlanner.Api\\TripPlanner.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\TripPlanner.Api\\TripPlanner.Api.csproj",
       "projectName": "TripPlanner.Api",
-      "projectPath": "C:\\Multistrat\\TripPlanner\\TripPlanner\\TripPlanner.Api\\TripPlanner.Api.csproj",
-      "packagesPath": "C:\\Users\\irimi\\.nuget\\packages\\",
-      "outputPath": "C:\\Multistrat\\TripPlanner\\TripPlanner\\TripPlanner.Api\\obj\\",
+      "projectPath": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\TripPlanner.Api\\TripPlanner.Api.csproj",
+      "packagesPath": "C:\\Users\\Radu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\TripPlanner.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\irimi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12265,8 +12402,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Multistrat\\TripPlanner\\TripPlanner\\Cqrs.Service\\Cqrs.Service.csproj": {
-              "projectPath": "C:\\Multistrat\\TripPlanner\\TripPlanner\\Cqrs.Service\\Cqrs.Service.csproj"
+            "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Cqrs.Service\\Cqrs.Service.csproj": {
+              "projectPath": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Cqrs.Service\\Cqrs.Service.csproj"
             }
           }
         }

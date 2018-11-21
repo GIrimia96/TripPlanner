@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Entity.Models
+﻿namespace Entity.Models
 {
-    public class Document
+    public class Document : BaseEntity
     {
-        public Guid Id { get; set; }
-        
         public string Type { get; set; }
     }
 }

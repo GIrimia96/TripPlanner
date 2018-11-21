@@ -1,0 +1,12 @@
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Contracts\bin\Debug\netcoreapp2.1\Repositories.Contracts.deps.json
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Contracts\bin\Debug\netcoreapp2.1\Repositories.Contracts.dll
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Contracts\bin\Debug\netcoreapp2.1\Repositories.Contracts.pdb
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Contracts\bin\Debug\netcoreapp2.1\Entity.Models.dll
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Contracts\bin\Debug\netcoreapp2.1\Entity.Models.pdb
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Contracts\obj\Debug\netcoreapp2.1\Repositories.Contracts.csprojAssemblyReference.cache
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Contracts\obj\Debug\netcoreapp2.1\Repositories.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Contracts\obj\Debug\netcoreapp2.1\Repositories.Contracts.AssemblyInfoInputs.cache
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Contracts\obj\Debug\netcoreapp2.1\Repositories.Contracts.AssemblyInfo.cs
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Contracts\obj\Debug\netcoreapp2.1\Repositories.Contracts.csproj.CopyComplete
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Contracts\obj\Debug\netcoreapp2.1\Repositories.Contracts.dll
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Contracts\obj\Debug\netcoreapp2.1\Repositories.Contracts.pdb

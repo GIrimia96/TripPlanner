@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Cqrs.Service.CommandContracts;
 using Cqrs.Service.QueryContracts;
+using Cqrs.Service.Command;
 using Microsoft.AspNetCore.Mvc;
+using DomainModels;
 
 namespace TripPlanner.Api.Controllers
 {
@@ -17,11 +16,11 @@ namespace TripPlanner.Api.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddLocation(Guid locationId)
+        public IActionResult AddLocation([FromBody] LocationDto locationDto)
         {
-            var command = AddLocationCommand(locationId);
+            var command = new AddLocationCommand(locationDto);
 
-            CommandDispatcher.Execute(command);
+            //CommandDispatcher.Execute(command);
             return NoContent();
         }
 

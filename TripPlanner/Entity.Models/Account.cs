@@ -1,11 +1,7 @@
-﻿using System;
-
-namespace Entity.Models
+﻿namespace Entity.Models
 {
-    public class Account
+    public class Account : BaseEntity
     {
-        public Guid Id { get; set; }
-
         public string Username { get; set; }
 
         public string Password { get; set; }

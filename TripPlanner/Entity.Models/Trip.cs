@@ -3,10 +3,8 @@ using System.Collections.Generic;
 
 namespace Entity.Models
 {
-    public class Trip
+    public class Trip : BaseEntity
     {
-        public Guid Id { get; set; }
-
         public string FromLocation { get; set; }
 
         public string ToLocation { get; set; }
