@@ -14,7 +14,6 @@
     <ProjectReference Include="..\Persistency.Mappings\Persistency.Mappings.csproj" />
     <ProjectReference Include="..\Repositories.Contracts\Repositories.Contracts.csproj" />
     <ProjectReference Include="..\TripPlanner.Api\TripPlanner.Api.csproj" />
-    <ProjectReference Include="..\TripPlanner.Web\TripPlanner.Web.csproj" />
   </ItemGroup>
 
 </Project>
