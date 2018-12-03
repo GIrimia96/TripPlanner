@@ -38,3 +38,13 @@ C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Deb
 C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\Repositories.Contracts.pdb
 C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\obj\Debug\netcoreapp2.1\TripPlanner.Api.RazorTargetAssemblyInfo.cache
 C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\obj\Debug\netcoreapp2.1\TripPlanner.Api.csproj.CopyComplete
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\Common.dll
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\Persistency.Contracts.dll
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\Persistency.Implementations.dll
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\Persistency.Mappings.dll
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\Repositories.Implementations.dll
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\Common.pdb
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\Persistency.Implementations.pdb
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\Persistency.Contracts.pdb
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\Persistency.Mappings.pdb
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\TripPlanner.Api\bin\Debug\netcoreapp2.1\Repositories.Implementations.pdb

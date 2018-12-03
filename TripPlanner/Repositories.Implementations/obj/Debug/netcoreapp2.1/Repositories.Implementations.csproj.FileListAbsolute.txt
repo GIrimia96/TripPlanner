@@ -1,0 +1,9 @@
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Implementations\bin\Debug\netcoreapp2.1\Repositories.Implementations.deps.json
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Implementations\bin\Debug\netcoreapp2.1\Repositories.Implementations.dll
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Implementations\obj\Debug\netcoreapp2.1\Repositories.Implementations.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Implementations\obj\Debug\netcoreapp2.1\Repositories.Implementations.AssemblyInfoInputs.cache
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Implementations\obj\Debug\netcoreapp2.1\Repositories.Implementations.AssemblyInfo.cs
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Implementations\bin\Debug\netcoreapp2.1\Repositories.Implementations.pdb
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Implementations\obj\Debug\netcoreapp2.1\Repositories.Implementations.csprojAssemblyReference.cache
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Implementations\obj\Debug\netcoreapp2.1\Repositories.Implementations.dll
+C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Repositories.Implementations\obj\Debug\netcoreapp2.1\Repositories.Implementations.pdb
