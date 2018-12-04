@@ -1167,6 +1167,7 @@
         "dependencies": {
           "AutoMapper": "8.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.0.0",
+          "Autofac": "4.8.1",
           "DomainModels": "1.0.0",
           "Ensure.That": "8.1.0",
           "Repositories.Contracts": "1.0.0"

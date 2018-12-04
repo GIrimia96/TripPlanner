@@ -15,6 +15,12 @@ namespace TripPlanner.Api.Controllers
         {
         }
 
+        [HttpGet]
+        public IActionResult Index()
+        {
+            return Ok();
+        }
+
         [HttpPost]
         public IActionResult AddLocation([FromBody] LocationDto locationDto)
         {

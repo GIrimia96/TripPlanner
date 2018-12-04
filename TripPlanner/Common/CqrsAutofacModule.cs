@@ -1,7 +1,9 @@
 ﻿using Autofac;
 using Cqrs.Service;
 using Cqrs.Service.CommandContracts;
+using Cqrs.Service.CommandHandlers;
 using Cqrs.Service.QueryContracts;
+using Cqrs.Service.QueryHandlers;
 using Persistency.Implementations;
 using Repositories.Implementations;
 using static System.Reflection.IntrospectionExtensions;
@@ -27,10 +29,10 @@ namespace Common
             builder.RegisterModule<PersistencyImplementationsAutofacModule>();
             builder.RegisterModule<RepositoryImplementationsAutofacModule>();
 
-            builder.RegisterType<ICommandDispatcher>()
+            builder.RegisterType<CommandDispatcher>()
                 .As<ICommandDispatcher>();
 
-            builder.RegisterType<IQueryDispatcher>()
+            builder.RegisterType<QueryDispatcher>()
                 .As<IQueryDispatcher>();
 
             builder.RegisterAssemblyTypes(typeof(BusinessLayer).GetTypeInfo().Assembly)

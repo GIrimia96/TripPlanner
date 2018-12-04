@@ -33,6 +33,7 @@ namespace TripPlanner.Api
 
         public IServiceProvider ConfigureServices(IServiceCollection services)
         { 
+            services.AddMvc();
             services.AddSingleton(Configuration);
 
             services.AddDatabase(Configuration.GetConnectionString("BiblioTechDBConnectionString"));
@@ -44,7 +45,6 @@ namespace TripPlanner.Api
 
             return container.Resolve<IServiceProvider>();
         }
-
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app,
