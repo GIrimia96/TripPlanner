@@ -10,6 +10,6 @@ namespace Entity.Models
 
         public string Country { get; set; }
 
-        public List<Trip> Trips { get; set; }
+        //public List<object> Trips { get; set; }
     }
 }

@@ -13,9 +13,7 @@ namespace Entity.Models
         public string Title { get; set; }
 
         public string Role { get; set; }
-
-        public Account Account { get; set; }
-
+        
         public List<EmployeeTrip> EmployeeTrips { get; set; }
     }
 }

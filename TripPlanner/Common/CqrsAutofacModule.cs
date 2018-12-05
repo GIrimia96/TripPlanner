@@ -1,11 +1,15 @@
 ﻿using Autofac;
+using AutoMapper;
+using Common.AutoMapper;
 using Cqrs.Service;
 using Cqrs.Service.CommandContracts;
 using Cqrs.Service.CommandHandlers;
 using Cqrs.Service.QueryContracts;
 using Cqrs.Service.QueryHandlers;
 using Persistency.Implementations;
+using Repositories.Contracts;
 using Repositories.Implementations;
+using System.Collections.Generic;
 using static System.Reflection.IntrospectionExtensions;
 
 namespace Common
@@ -16,14 +20,6 @@ namespace Common
     /// <seealso cref="Autofac.Module" />
     public class CqrsAutofacModule : Module
     {
-        /// <summary>
-        /// Override to add registrations to the container.
-        /// </summary>
-        /// <param name="builder">The builder through which components can be
-        /// registered.</param>
-        /// <remarks>
-        /// Note that the ContainerBuilder parameter is unique to this module.
-        /// </remarks>
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterModule<PersistencyImplementationsAutofacModule>();
@@ -49,6 +45,21 @@ namespace Common
 
             builder.RegisterAssemblyTypes(typeof(BusinessLayer).GetTypeInfo().Assembly)
                 .AsClosedTypesOf(typeof(IQueryHandler<,>)).AsImplementedInterfaces();
+
+            builder.RegisterGeneric(typeof(BaseRepository<>))
+               .As(typeof(IBaseRepository<>));
+
+            builder.RegisterAssemblyTypes().AssignableTo(typeof(LocationMapper));
+
+            builder.Register(c => new MapperConfiguration(cfg =>
+            {
+                foreach (var profile in c.Resolve<IEnumerable<Profile>>())
+                {
+                    cfg.AddProfile(profile);
+                }
+            })).AsSelf().SingleInstance();
+
+            builder.Register(c => c.Resolve<MapperConfiguration>().CreateMapper(c.Resolve)).As<IMapper>().InstancePerLifetimeScope();
 
             //builder.RegisterType<UserService>()
             //    .As<IUserService>();

@@ -5216,7 +5216,9 @@
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.1.1",
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
-          "Persistency.Mappings": "1.0.0"
+          "Persistency.Contracts": "1.0.0",
+          "Persistency.Mappings": "1.0.0",
+          "Repositories.Contracts": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Persistency.Implementations.dll": {}
@@ -5257,7 +5259,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Autofac": "4.8.1"
+          "Autofac": "4.8.1",
+          "Persistency.Implementations": "1.0.0",
+          "Repositories.Contracts": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Repositories.Implementations.dll": {}

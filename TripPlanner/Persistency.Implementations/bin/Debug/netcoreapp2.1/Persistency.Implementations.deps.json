@@ -16,7 +16,9 @@
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.1.1",
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
+          "Persistency.Contracts": "1.0.0",
           "Persistency.Mappings": "1.0.0",
+          "Repositories.Contracts": "1.0.0",
           "StyleCop.Analyzers": "1.0.2"
         },
         "runtime": {
@@ -631,6 +633,14 @@
         "runtime": {
           "Persistency.Mappings.dll": {}
         }
+      },
+      "Repositories.Contracts/1.0.0": {
+        "dependencies": {
+          "Entity.Models": "1.0.0"
+        },
+        "runtime": {
+          "Repositories.Contracts.dll": {}
+        }
       }
     }
   },
@@ -1099,6 +1109,11 @@
       "sha512": ""
     },
     "Persistency.Mappings/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repositories.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

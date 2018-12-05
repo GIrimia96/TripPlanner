@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DomainModels
 {
@@ -10,6 +11,6 @@ namespace DomainModels
 
         public string Country { get; set; }
 
-        //public List<TripDto> Trips { get; set; }
+        //public List<object> Trips { get; set; }
     }
 }

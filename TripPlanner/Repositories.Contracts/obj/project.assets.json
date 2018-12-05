@@ -208,6 +208,9 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "StyleCop.Analyzers/1.0.2": {
+        "type": "package"
+      },
       "Entity.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -685,6 +688,20 @@
         "netstandard.library.nuspec"
       ]
     },
+    "StyleCop.Analyzers/1.0.2": {
+      "sha512": "SJXrFL+4YbLBlV+4Ija4/ezKApo1PfMBpeYS4vZomnUTWNxHHt0D3b+4GYc8ayA06+ZMAChYi6+nSfuFD56WMw==",
+      "type": "package",
+      "path": "stylecop.analyzers/1.0.2",
+      "files": [
+        ".signature.p7s",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.dll",
+        "stylecop.analyzers.1.0.2.nupkg.sha512",
+        "stylecop.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "Entity.Models/1.0.0": {
       "type": "project",
       "path": "../Entity.Models/Entity.Models.csproj",
@@ -694,7 +711,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Entity.Models >= 1.0.0",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "StyleCop.Analyzers >= 1.0.2"
     ]
   },
   "packageFolders": {
@@ -747,6 +765,12 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "StyleCop.Analyzers": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.0.2, )"
           }
         },
         "imports": [

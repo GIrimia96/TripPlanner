@@ -1069,6 +1069,19 @@
         "runtime": {
           "bin/placeholder/Persistency.Mappings.dll": {}
         }
+      },
+      "Repositories.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Entity.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repositories.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repositories.Contracts.dll": {}
+        }
       }
     }
   },
@@ -3852,6 +3865,11 @@
       "type": "project",
       "path": "../Persistency.Mappings/Persistency.Mappings.csproj",
       "msbuildProject": "../Persistency.Mappings/Persistency.Mappings.csproj"
+    },
+    "Repositories.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Repositories.Contracts/Repositories.Contracts.csproj",
+      "msbuildProject": "../Repositories.Contracts/Repositories.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3865,7 +3883,9 @@
       "Microsoft.Extensions.Configuration.FileExtensions >= 2.1.1",
       "Microsoft.Extensions.Configuration.Json >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
+      "Persistency.Contracts >= 1.0.0",
       "Persistency.Mappings >= 1.0.0",
+      "Repositories.Contracts >= 1.0.0",
       "StyleCop.Analyzers >= 1.0.2"
     ]
   },
@@ -3902,8 +3922,14 @@
             "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Entity.Models\\Entity.Models.csproj": {
               "projectPath": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Entity.Models\\Entity.Models.csproj"
             },
+            "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Persistency.Contracts\\Persistency.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Persistency.Contracts\\Persistency.Contracts.csproj"
+            },
             "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Persistency.Mappings\\Persistency.Mappings.csproj": {
               "projectPath": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Persistency.Mappings\\Persistency.Mappings.csproj"
+            },
+            "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Repositories.Contracts\\Repositories.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Repositories.Contracts\\Repositories.Contracts.csproj"
             }
           }
         }

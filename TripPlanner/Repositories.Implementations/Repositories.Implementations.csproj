@@ -12,4 +12,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Persistency.Implementations\Persistency.Implementations.csproj" />
+    <ProjectReference Include="..\Repositories.Contracts\Repositories.Contracts.csproj" />
+  </ItemGroup>
+
 </Project>

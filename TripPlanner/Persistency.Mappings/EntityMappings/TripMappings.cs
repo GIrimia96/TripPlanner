@@ -1,6 +1,7 @@
 ﻿using Entity.Models;
 using Microsoft.EntityFrameworkCore;
 using Persistency.Contracts;
+using System.Collections.Generic;
 
 namespace Persistency.Mappings.EntityMappings
 {
@@ -10,10 +11,10 @@ namespace Persistency.Mappings.EntityMappings
         {
             modelBuilder.Entity<Trip>().HasKey(t => t.Id);
 
-            modelBuilder.Entity<Trip>()
-                .HasOne(l => l.Location)
-                .WithMany(t => t.Trips)
-                .HasForeignKey(t => t.Id);
+            //modelBuilder.Entity<Trip>()
+            //    .HasOne(l => l.Location)
+            //    .WithMany(t => t.Trips)
+            //    .HasForeignKey(t => t.Id);
 
         }
     }

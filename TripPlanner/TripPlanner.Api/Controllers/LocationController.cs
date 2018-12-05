@@ -16,7 +16,7 @@ namespace TripPlanner.Api.Controllers
         }
 
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Index([FromBody]string x)
         {
             return Ok();
         }
@@ -26,11 +26,9 @@ namespace TripPlanner.Api.Controllers
         {
             var command = new AddLocationCommand(locationDto);
 
-            //CommandDispatcher.Execute(command);
+            CommandDispatcher.Execute(command);
             return NoContent();
         }
-
-
 
     }
 }

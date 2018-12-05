@@ -1,6 +1,7 @@
 ﻿using Entity.Models;
 using Microsoft.EntityFrameworkCore;
 using Persistency.Contracts;
+using Persistency.Mappings.EntityMappings;
 using System.Collections.Generic;
 
 namespace Persistency.Implementations
@@ -14,7 +15,8 @@ namespace Persistency.Implementations
         {
             _entityMappingCollection = entityMappingCollection;
             Database.Migrate();
-            TripPlannerDbSeeder.Seed(this);
+            Database.EnsureCreated();
+            //TripPlannerDbSeeder.Seed(this);
         }
 
 
@@ -26,26 +28,26 @@ namespace Persistency.Implementations
         //    }
         //}
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Employee>()
-                .HasOne(p => p.Account)
-                .WithOne(i => i.Employee)
-                .HasForeignKey<Account>(b => b.AccountForeignKey);
-        }
-
-
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{
-        //    foreach (var entityMapping in _entityMappingCollection)
-        //    {
-        //        entityMapping.Map(modelBuilder);
-        //    }
+        //    modelBuilder.Entity<Employee>()
+        //        .HasOne(p => p.Account)
+        //        .WithOne(i => i.Employee)
+        //        .HasForeignKey<Account>(b => b.AccountForeignKey);
         //}
 
-        public DbSet<Employee> Employees { get; set; }
 
-        public DbSet<Account> Accounts { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //foreach (var entityMapping in _entityMappingCollection)
+            //{
+            //    entityMapping.Map(modelBuilder);
+            //}
+
+            modelBuilder.ApplyConfiguration(new LocationMappings());
+        }
+
+        public DbSet<Employee> Employees { get; set; }
 
         public DbSet<Document> Documents { get; set; }
 

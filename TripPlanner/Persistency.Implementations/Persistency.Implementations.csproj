@@ -20,11 +20,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Entity.Models\Entity.Models.csproj" />
+    <ProjectReference Include="..\Persistency.Contracts\Persistency.Contracts.csproj" />
     <ProjectReference Include="..\Persistency.Mappings\Persistency.Mappings.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Migrations\" />
+    <ProjectReference Include="..\Repositories.Contracts\Repositories.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

@@ -21,17 +21,18 @@ namespace Cqrs.Service.CommandHandlers
         public void Execute(AddLocationCommand command)
         {
             EnsureArg.IsNotNull(command);
-            var location = new Location
-            {
-                Id = command.Location.Id,
-                Country = command.Location.Country,
-                Name = command.Location.Name
-                //Trips = command.Location.Trips
-            };
 
-            _mapper.Map(command.Location, location);
-            _baseRepo.Add(location);
-            _baseRepo.Save();
+            var mappedLocation = new Location();
+
+            _mapper.Map(command.Location, mappedLocation);
+
+
+            //_baseRepo.Add(mappedLocation);
+           
+
+            var a = _baseRepo.Get(command.Location.Id);
+
+            //_baseRepo.Save();
         }
     }
 }
