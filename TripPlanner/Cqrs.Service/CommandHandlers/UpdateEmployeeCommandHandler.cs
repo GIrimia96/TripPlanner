@@ -1,6 +1,8 @@
-﻿using AutoMapper;
+﻿using System;
+using AutoMapper;
 using Cqrs.Service.Command;
 using Cqrs.Service.CommandContracts;
+using Cqrs.Service.Exceptions;
 using EnsureThat;
 using Entity.Models;
 using Repositories.Contracts;
@@ -23,8 +25,10 @@ namespace Cqrs.Service.CommandHandlers
             EnsureArg.IsNotNull(command);
             var employee = repo.Get(command.Employee.Id);
 
-            Ensure.That(employee == null)
-                .IsFalse();
+            if (employee.Id == Guid.Empty)
+            {
+                throw new GeneralBusinessException("Employee not found");
+            }
 
             _mapper.Map(command.Employee, employee);
             repo.Save();
