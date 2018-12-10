@@ -1,26 +1,17 @@
 ﻿using Entity.Models;
 using Microsoft.EntityFrameworkCore;
-using Persistency.Contracts;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Persistency.Mappings.EntityMappings
 {
-    public class EmployeeTripMappings : IEntityMapping
+    public class EmployeeTripMappings : IEntityTypeConfiguration<EmployeeTrip>
     {
-        public void Map(ModelBuilder modelBuilder)
+        public void Configure(EntityTypeBuilder<EmployeeTrip> builder)
         {
-            modelBuilder.Entity<EmployeeTrip>()
-                .HasKey(et => new { et.EmployeeId, et.TripId });
-
-            modelBuilder.Entity<EmployeeTrip>()
-                .HasOne(et => et.Employee)
-                .WithMany(et => et.EmployeeTrips)
-                .HasForeignKey(et => et.EmployeeId);
-
-
-            modelBuilder.Entity<EmployeeTrip>()
-                .HasOne(et => et.Trip)
-                .WithMany(et => et.EmployeeTrips)
-                .HasForeignKey(et => et.TripId);
+            builder.HasKey(et => new {et.EmployeeId, et.TripId});
+            builder.HasOne(et => et.Employee).WithMany(et => et.EmployeeTrips).HasForeignKey(et => et.EmployeeId);
+            builder.HasOne(et => et.Trip).WithMany(et => et.EmployeeTrips).HasForeignKey(et => et.TripId);
         }
     }
 }
+

@@ -1,21 +1,14 @@
 ﻿using Entity.Models;
 using Microsoft.EntityFrameworkCore;
-using Persistency.Contracts;
-using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Persistency.Mappings.EntityMappings
 {
-    public class TripMappings : IEntityMapping
+    public class TripMappings : IEntityTypeConfiguration<Trip>
     {
-        public void Map(ModelBuilder modelBuilder)
+        public void Configure(EntityTypeBuilder<Trip> builder)
         {
-            modelBuilder.Entity<Trip>().HasKey(t => t.Id);
-
-            //modelBuilder.Entity<Trip>()
-            //    .HasOne(l => l.Location)
-            //    .WithMany(t => t.Trips)
-            //    .HasForeignKey(t => t.Id);
-
+            builder.HasKey(t => t.Id);
         }
     }
 }

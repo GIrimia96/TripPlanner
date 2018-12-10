@@ -10,43 +10,6 @@ namespace Persistency.Implementations
     {
         private readonly IEnumerable<IEntityMapping> _entityMappingCollection;
 
-        public TripPlannerContext(IEnumerable<IEntityMapping> entityMappingCollection, DbContextOptions dbContextOptions)
-            : base(dbContextOptions)
-        {
-            _entityMappingCollection = entityMappingCollection;
-            Database.Migrate();
-            Database.EnsureCreated();
-            //TripPlannerDbSeeder.Seed(this);
-        }
-
-
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    if (!optionsBuilder.IsConfigured)
-        //    {
-        //        optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=TripPlannerDB;Trusted_Connection=True;");
-        //    }
-        //}
-
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<Employee>()
-        //        .HasOne(p => p.Account)
-        //        .WithOne(i => i.Employee)
-        //        .HasForeignKey<Account>(b => b.AccountForeignKey);
-        //}
-
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            //foreach (var entityMapping in _entityMappingCollection)
-            //{
-            //    entityMapping.Map(modelBuilder);
-            //}
-
-            modelBuilder.ApplyConfiguration(new LocationMappings());
-        }
-
         public DbSet<Employee> Employees { get; set; }
 
         public DbSet<Document> Documents { get; set; }
@@ -54,5 +17,21 @@ namespace Persistency.Implementations
         public DbSet<Location> Locations { get; set; }
 
         public DbSet<Trip> Trips { get; set; }
+
+        public TripPlannerContext(IEnumerable<IEntityMapping> entityMappingCollection, DbContextOptions dbContextOptions)
+            : base(dbContextOptions)
+        {
+            _entityMappingCollection = entityMappingCollection;
+            Database.Migrate();
+            Database.EnsureCreated();
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new LocationMappings());
+            modelBuilder.ApplyConfiguration(new TripMappings());
+            modelBuilder.ApplyConfiguration(new EmployeeMappings());
+            modelBuilder.ApplyConfiguration(new EmployeeTripMappings());
+        }
     }
 }

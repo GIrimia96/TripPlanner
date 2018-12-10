@@ -1,7 +1,6 @@
 ﻿using Entity.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Persistency.Contracts;
 
 namespace Persistency.Mappings.EntityMappings
 {
@@ -12,14 +11,5 @@ namespace Persistency.Mappings.EntityMappings
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Name);
         }
-
-        //public void Map(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<Location>().HasKey(l => l.Id);
-
-        //    //modelBuilder.Entity<Location>()
-        //    //    .HasMany(t => t.Trips)
-        //    //    .WithOne(l => l.Location);
-        //}
     }
 }

@@ -1,15 +1,15 @@
 ﻿using Entity.Models;
 using Microsoft.EntityFrameworkCore;
-using Persistency.Contracts;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Persistency.Mappings.EntityMappings
 {
-    public class EmployeeMappings : IEntityMapping
+    public class EmployeeMappings : IEntityTypeConfiguration<Employee>
     {
-        public void Map(ModelBuilder modelBuilder)
-        {   
-            modelBuilder.Entity<Employee>().HasKey(e => e.Id);
-
+        public void Configure(EntityTypeBuilder<Employee> builder)
+        {
+            builder.HasKey(e => e.Id);
+            
         }
     }
 }

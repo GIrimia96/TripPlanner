@@ -14,10 +14,6 @@ using static System.Reflection.IntrospectionExtensions;
 
 namespace Common
 {
-    /// <summary>
-    /// AutofacModule for CqrsStructure project.
-    /// </summary>
-    /// <seealso cref="Autofac.Module" />
     public class CqrsAutofacModule : Module
     {
         protected override void Load(ContainerBuilder builder)
