@@ -25,14 +25,8 @@ namespace Cqrs.Service.CommandHandlers
             var mappedLocation = new Location();
 
             _mapper.Map(command.Location, mappedLocation);
-
-
-            //_baseRepo.Add(mappedLocation);
-           
-
-            var a = _baseRepo.Get(command.Location.Id);
-
-            //_baseRepo.Save();
+            _baseRepo.Add(mappedLocation);
+            _baseRepo.Save();
         }
     }
 }
