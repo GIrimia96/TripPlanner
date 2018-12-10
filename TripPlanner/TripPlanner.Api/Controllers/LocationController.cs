@@ -7,7 +7,6 @@ using Cqrs.Service.QueryResults;
 using Microsoft.AspNetCore.Mvc;
 using DomainModels;
 using EnsureThat;
-using Entity.Models;
 
 namespace TripPlanner.Api.Controllers
 {
@@ -19,11 +18,11 @@ namespace TripPlanner.Api.Controllers
         {
         }
 
-        [HttpGet("{id}")]
-        public IActionResult Index(Guid id)
+        [HttpGet("{locationId}")]
+        public IActionResult Index(Guid locationId)
         {
-            EnsureArg.IsNotEmpty(id);
-            var query = new GetLocationByIdQuery(id);
+            EnsureArg.IsNotEmpty(locationId);
+            var query = new GetLocationByIdQuery(locationId);
             var queryResult = QueryDispatcher.Execute<GetLocationByIdQuery, GetLocationByIdQueryResult>(query);
 
             return Ok(queryResult.Location);
@@ -45,6 +44,17 @@ namespace TripPlanner.Api.Controllers
         {
             EnsureArg.IsNotNull(locationDto);
             var command = new UpdateLocationCommand(locationDto);
+            CommandDispatcher.Execute(command);
+
+            return NoContent();
+        }
+
+        [HttpDelete("{locationId}")]
+        public IActionResult DeleteLocation(Guid locationId)
+        {
+            EnsureArg.IsNotEmpty(locationId);
+
+            var command = new DeleteLocationCommand(locationId);
             CommandDispatcher.Execute(command);
 
             return NoContent();

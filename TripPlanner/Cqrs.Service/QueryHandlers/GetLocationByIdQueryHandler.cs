@@ -25,7 +25,6 @@ namespace Cqrs.Service.QueryHandlers
 
         public GetLocationByIdQueryResult Execute(GetLocationByIdQuery query)
         {
-            var location = new Location();
             var resource = repo.Get(query.Id);
 
             var locationToReturn = _mapper.Map<Location, LocationDto>(resource);

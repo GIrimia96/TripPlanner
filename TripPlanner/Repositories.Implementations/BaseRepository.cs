@@ -23,7 +23,7 @@
 
         public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            DbContext.Remove(entity);
         }
 
         public T Get(Guid id)
