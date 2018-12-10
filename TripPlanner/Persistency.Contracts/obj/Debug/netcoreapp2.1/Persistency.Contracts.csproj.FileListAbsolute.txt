@@ -15,3 +15,4 @@ C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Persistency.Contracts\o
 C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Persistency.Contracts\obj\Debug\netcoreapp2.1\Persistency.Contracts.AssemblyInfo.cs
 C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Persistency.Contracts\obj\Debug\netcoreapp2.1\Persistency.Contracts.dll
 C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Persistency.Contracts\obj\Debug\netcoreapp2.1\Persistency.Contracts.pdb
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Contracts\obj\Debug\netcoreapp2.1\Persistency.Contracts.csprojAssemblyReference.cache

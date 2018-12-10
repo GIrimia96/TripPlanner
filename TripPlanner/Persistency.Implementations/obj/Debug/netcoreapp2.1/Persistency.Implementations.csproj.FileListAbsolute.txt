@@ -30,3 +30,11 @@ C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Persistency.Implementat
 C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Persistency.Contracts.pdb
 C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Repositories.Contracts.dll
 C:\Users\Radu\Desktop\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Repositories.Contracts.pdb
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Persistency.Implementations.runtimeconfig.json
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Persistency.Implementations.runtimeconfig.dev.json
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Persistency.Contracts.dll
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Persistency.Mappings.dll
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Repositories.Contracts.dll
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Persistency.Contracts.pdb
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Persistency.Mappings.pdb
+C:\Multistrat\TripPlanner\TripPlanner\Persistency.Implementations\bin\Debug\netcoreapp2.1\Repositories.Contracts.pdb

@@ -2,10 +2,6 @@
 
 namespace Unit.Tests.Generic
 {
-    /// <summary>
-    /// Base Unit Test class
-    /// </summary>
-    /// <typeparam name="T">Item to Test </typeparam>
     [TestClass]
     public abstract class BaseTest<T>
     {
@@ -20,16 +16,9 @@ namespace Unit.Tests.Generic
             // Generate ItemToTest with all the dependency
             ItemToTest = CreateItemToTest();
         }
-
-        /// <summary>
-        /// Create the item to test
-        /// </summary>
-        /// <returns> Item to test </returns>
+        
         protected abstract T CreateItemToTest();
 
-        /// <summary>
-        /// Setup mocking for the test methods
-        /// </summary>
         protected virtual void SetupMockingForTests()
         {
         }
