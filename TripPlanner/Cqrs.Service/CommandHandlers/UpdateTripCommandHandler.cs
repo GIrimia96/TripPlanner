@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Cqrs.Service.Command;
 using Cqrs.Service.CommandContracts;
+using Cqrs.Service.Exceptions;
 using EnsureThat;
 using Entity.Models;
 using Repositories.Contracts;
@@ -23,8 +24,10 @@ namespace Cqrs.Service.CommandHandlers
             EnsureArg.IsNotNull(command);
             var trip = repo.Get(command.Trip.Id);
 
-            Ensure.That(trip == null)
-                .IsFalse();
+            if (trip == null)
+            {
+                throw new GeneralBusinessException("Trip cannot be null");
+            }
 
             _mapper.Map(command.Trip, trip);
             repo.Save();
