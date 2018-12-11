@@ -34,6 +34,7 @@ namespace Unit.Tests.Specific.CommandTest.EmployeeCommandTest
         [TestMethod]
         public void UpdateEmployee_ShouldThrowError_WhenEmployeeNotFound()
         {
+            MockEmployee(new Employee());
             Action check = () => { CreateItemToTest().Execute(new UpdateEmployeeCommand(new EmployeeDto())); };
             check.Should().Throw<GeneralBusinessException>().WithMessage("Employee not found");
         }

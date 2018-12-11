@@ -529,11 +529,10 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
+      "sha512": "TT+QCi9LcxGTjBssH7S7n5+8DVcwfG4DYgXX7Dk7+BfZ4oVHj8Q0CbYk9glzAlHLsSt3bYzol+fOdra2iu6GOw==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -689,12 +688,10 @@
       ]
     },
     "StyleCop.Analyzers/1.0.2": {
-      "sha512": "3xD87lafnVhsSEtJKk50G7FGutvaXkFz4XrrLrxnk/DhZU42dnCGWUsvKuBv4mTS0XdIgTY88tLhxW/8Vi3Pow==",
+      "sha512": "SJXrFL+4YbLBlV+4Ija4/ezKApo1PfMBpeYS4vZomnUTWNxHHt0D3b+4GYc8ayA06+ZMAChYi6+nSfuFD56WMw==",
       "type": "package",
       "path": "stylecop.analyzers/1.0.2",
-      "hasTools": true,
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/StyleCop.Analyzers.CodeFixes.dll",
         "analyzers/dotnet/cs/StyleCop.Analyzers.dll",
@@ -718,23 +715,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Radu\\.nuget\\packages\\": {},
+    "C:\\Users\\irimi\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Repositories.Contracts\\Repositories.Contracts.csproj",
+      "projectUniqueName": "C:\\Multistrat\\TripPlanner\\TripPlanner\\Repositories.Contracts\\Repositories.Contracts.csproj",
       "projectName": "Repositories.Contracts",
-      "projectPath": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Repositories.Contracts\\Repositories.Contracts.csproj",
-      "packagesPath": "C:\\Users\\Radu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Repositories.Contracts\\obj\\",
+      "projectPath": "C:\\Multistrat\\TripPlanner\\TripPlanner\\Repositories.Contracts\\Repositories.Contracts.csproj",
+      "packagesPath": "C:\\Users\\irimi\\.nuget\\packages\\",
+      "outputPath": "C:\\Multistrat\\TripPlanner\\TripPlanner\\Repositories.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\irimi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -747,8 +744,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Entity.Models\\Entity.Models.csproj": {
-              "projectPath": "C:\\Users\\Radu\\Desktop\\Multistrat\\TripPlanner\\TripPlanner\\Entity.Models\\Entity.Models.csproj"
+            "C:\\Multistrat\\TripPlanner\\TripPlanner\\Entity.Models\\Entity.Models.csproj": {
+              "projectPath": "C:\\Multistrat\\TripPlanner\\TripPlanner\\Entity.Models\\Entity.Models.csproj"
             }
           }
         }

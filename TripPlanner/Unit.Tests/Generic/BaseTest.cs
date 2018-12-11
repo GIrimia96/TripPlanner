@@ -5,6 +5,8 @@ namespace Unit.Tests.Generic
     [TestClass]
     public abstract class BaseTest<T>
     {
+        protected T ItemToTest { get; set; }
+
         [TestInitialize]
         public virtual void SetupTest()
         {
@@ -12,11 +14,13 @@ namespace Unit.Tests.Generic
             SetupMockingForTests();
 
             // Generate ItemToTest with all the dependency
-            CreateItemToTest();
+            ItemToTest = CreateItemToTest();
         }
-
+        
         protected abstract T CreateItemToTest();
 
-        protected abstract void SetupMockingForTests();
+        protected virtual void SetupMockingForTests()
+        {
+        }
     }
 }
