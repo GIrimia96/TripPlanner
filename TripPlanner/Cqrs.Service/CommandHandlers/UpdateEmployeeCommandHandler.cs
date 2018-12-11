@@ -25,7 +25,7 @@ namespace Cqrs.Service.CommandHandlers
             EnsureArg.IsNotNull(command);
             var employee = repo.Get(command.Employee.Id);
 
-            if (employee.Id == Guid.Empty)
+            if (employee == null)
             {
                 throw new GeneralBusinessException("Employee not found");
             }

@@ -1,6 +1,8 @@
-﻿using AutoMapper;
+﻿using System;
+using AutoMapper;
 using Cqrs.Service.Command;
 using Cqrs.Service.CommandContracts;
+using Cqrs.Service.Exceptions;
 using EnsureThat;
 using Entity.Models;
 using Repositories.Contracts;
@@ -23,9 +25,10 @@ namespace Cqrs.Service.CommandHandlers
             EnsureArg.IsNotNull(command);
             var location = repo.Get(command.Location.Id);
 
-            Ensure.That(location == null)
-                .IsFalse();
-
+            if (location == null)
+            {
+                throw new GeneralBusinessException("Location cannot be empty");
+            }
             _mapper.Map(command.Location, location);
             repo.Save();
         }
